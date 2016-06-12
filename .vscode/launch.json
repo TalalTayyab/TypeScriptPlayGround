@@ -5,7 +5,7 @@
             "name": "Launch",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/dist/interface.js",
+            "program": "${workspaceRoot}/dist/class.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
