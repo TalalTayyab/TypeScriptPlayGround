@@ -23,5 +23,6 @@ function someFunction(someVar) {
     return someVar;
 }
 console.log(someFunction(0 /* Hot */));
+console.log(someFunction(Source.Internal));
 console.log(someFunction(123));
 console.log(someFunction("talal"));

@@ -16,10 +16,12 @@ function someFunction(someVar : string | number | Source | Weather) : string|num
      return "string : " + someVar;        
  }
 
+  
  return someVar;
 
 }
  
 console.log(someFunction(Weather.Hot));
+console.log(someFunction(Source.Internal));
 console.log(someFunction(123));
 console.log(someFunction("talal")); 
