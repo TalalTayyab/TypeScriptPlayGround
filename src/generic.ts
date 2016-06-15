@@ -31,13 +31,13 @@ function MethodB(func: IGenericInterface<string>) {
 }
 
 
-var obj = {
+var obj1 = {
     someMethod: function () { return "someMethod"; },
     someGenericMethod: function (arg: string): string { return arg; }
 };
 
 MethodA(myEchoFunc);
-MethodB(obj);
+MethodB(obj1);
 
 interface ILength {
     length: number;
