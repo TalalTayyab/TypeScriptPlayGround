@@ -1,6 +1,6 @@
 class Machine {
     
-    private static GreetMsg : string = "Hello Dev";
+    private static GreetMsg : string = "Hello Dev Developer";
     
     constructor(protected user: string) {
     }
