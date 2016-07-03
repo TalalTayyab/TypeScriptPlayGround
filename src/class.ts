@@ -1,7 +1,7 @@
 class Machine {
     
-    private static GreetMsg : string = "Hello master";
-    
+    private static GreetMsg : string = "Hello";
+    //Master
     constructor(protected user: string) {
     }
     
